@@ -1,0 +1,219 @@
+*{
+    margin:0px;
+}
+h1 {
+
+    font-family:'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+.nav {
+    display: flex;
+    color:rgb(253, 162, 238);
+    background-color: rgb(7, 7, 7);
+    justify-content: space-between;
+    align-items:flex-end;
+    padding: 10px;
+    margin: 10px;
+}
+.nav-links li {
+    display:inline-flex;
+    justify-content: space-evenly;
+    align-items:center;
+    vertical-align: text-top;
+    margin:10px;
+    color: rgb(255, 94, 255);
+    
+}
+/* to remove underline from links add the following properties */
+/* a:link { text-decoration: none; } */
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+/* to remove bullet points from unordered lists use the following properties */
+ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    justify-content: space-around;
+}
+.btn{
+    color: white;
+    border-color: black;
+    background-color: rgb(253, 147, 244);
+}
+/* to make link text color white add this property */
+
+[href] {
+color:white;
+}
+.container {
+    margin: 10px;
+    padding-bottom: 25px;
+    width: 450px;
+    background-color: white;
+    border: 5px solid rgb(204, 136, 193);
+    display: inline-block;
+}
+.top-nav {
+    margin-bottom:15px;
+    height: 100px;
+    background-color: rgb(204, 136, 193);
+    
+}
+h1{
+    font-family:'Times New Roman', Times, serif;
+    font-size:xx-large;
+    font-style: normal;
+    padding: 15px;
+}
+
+img {
+    height: 80px;
+    width: 75px;
+    border: 5px solid black;
+    border-radius: 50%;
+    display: inline-block;
+
+}
+.icon {
+position: relative;
+top: -60px;
+right: -20px;
+
+}
+
+.location {
+    margin-top: 10px;
+    height: 20px;
+    width: 20px;
+    border-radius: 0%;
+    border: 0;
+    display: inline-block;
+
+}
+h4 {
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 2px;
+}
+.edit{
+    margin-top: 10px;
+    height: 10px;
+    width: 10px;
+    border-radius: 0%;
+    border: 0;
+    display: inline-block;  
+    padding: 5px;
+    
+}
+p{
+    text-indent: 15px;
+    display: block;
+    
+}
+
+.edit-profile {
+    margin-top: 20px;
+    color:blue;
+    display: inline-block;
+    padding: 5px;
+    text-decoration: underline;
+}
+.content-a {
+    
+    padding-bottom: 15%;
+    width: 200px;
+    background-color: white;
+    border: 5px solid rgb(204, 136, 193);
+    display: block;
+    position: relative;
+    top: -445px;
+    right: -570px;
+}
+.side-box-1 {
+    border: 20px;
+    margin: 0%;
+    width: 90%;
+    height: 10%;
+    padding: 5%;
+    background-color: rgb(204, 136, 193); 
+    display: block;
+}
+.requests {
+    text-align: center;
+    background-color: rgb(204, 136, 193);
+    
+}
+.content-b {
+    
+    padding-bottom: 18%;
+    width: 200px;
+    background-color: white;
+    border: 5px solid rgb(204, 136, 193);
+    display: block;
+    position: relative;
+    top: -360px;
+    right: -570px;
+}
+.side-box-2 {
+    border: 20px;
+    margin: 0%;
+    width: 90%;
+    height: 10%;
+    padding: 5%;
+    background-color: rgb(204, 136, 193); 
+    display: block;
+}
+.your-connections{
+    text-align: center;
+    background-color: rgb(204, 136, 193);
+}
+.container-b {
+    margin: 10px;
+    width: 450px;
+    padding-bottom: 10%;
+    background-color: white;
+    border: 5px solid rgb(204, 136, 193);
+    display: block;
+    position: relative;
+    top:-400px;
+    
+}
+.education{
+    background-color: rgb(204, 136, 193);
+    text-align: center;
+}
+.date {
+color: grey;
+font-weight: lighter;
+}
+.info {
+    font-weight: 70;
+}
+.view-more{
+    color:blue;
+    position: relative;
+    bottom: -130px;
+    right: -10px;
+}
+li {
+    line-height: 1.5;
+}
+.profile-icon{
+    border-radius:50%;
+    border: solid black;
+    float:left;
+    width:20px;
+    height:20px;
+    
+    
+}
+/* .two {
+border-radius: 50%;
+border: 2px solid black;
+height: 20px;
+width: 20px;
+}
+*/
+
